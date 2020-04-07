@@ -300,3 +300,28 @@ footer .base-bottom {
   background-color: #1078ad;
   width: 100%;
   height: 35px; }
+
+.protection {
+  width: 100%;
+  text-align: center; }
+  .protection .title {
+    font-family: 'Cairo';
+    color: #1078AD;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px; }
+  .protection .cards {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .protection .cards__card {
+      width: 30%;
+      margin-top: 85px; }
+      .protection .cards__card img {
+        height: 100px; }
+      .protection .cards__card--title {
+        color: #1078AD;
+        font-size: 14px;
+        font-weight: 700; }
