@@ -1,0 +1,60 @@
+.recommand {
+    background-color:$color1;
+    padding: 20px;
+    text-align: center;
+
+    h3 {
+        color: $color7;
+        font-family: 'Cairo';
+        font-size: 2em;
+    }
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+
+    .text {
+        text-align: center;
+        color: $color7;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+
+        span {
+            color: $color5;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    .appel {
+        width: 25%;
+        text-align: center;
+        margin-right: 100px;
+
+        h3 {
+            color: $color2;
+        }
+
+        p {
+            font-size: xx-large;
+            color: $color1;
+            background-color: $color2;
+            border: 2px solid $color2;
+            border-radius: 5px;
+            width: 80%;
+            margin: auto;
+        }
+
+        a:link {
+            text-decoration-color: $color2;
+            color: $color7;
+            font-size: larger;
+            font-weight: 600;
+        }
+    }
+}

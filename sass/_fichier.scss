@@ -1,0 +1,155 @@
+/*header*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Cairo';
+}
+
+.navbar {
+    background: url(/dist/Assets/png/Mergedbar-19.png);
+    height: 80px;
+}
+
+.logo {
+    padding: 10px 80px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    cursor: pointer;
+    color: #2B2B2C;
+    font-size: 18px;
+    padding: 7px 13px;
+
+
+
+}
+
+.lang {
+    margin-left: 20px;
+    font-size: 1rem;
+    padding: 0px 8px;
+    border: 1px solid $color1;
+    border-radius: 10px;
+    margin-left: 1em;
+
+    i {
+        margin-left: 8px;
+        color: $color2;
+    }
+}
+
+.conseils:hover {
+    color: #1078AD;
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+    color: #1078AD;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/*nav barre*/
+.traitement {
+    background-color: #F4CF1B;
+}
+
+.traitement--title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #1078AD;
+    padding-top: 20px;
+    font-size: 1.6rem;
+}
+
+.traitement--para {
+    margin: 0 auto;
+    max-width: 546px;
+    text-align: center;
+}
+
+.heroHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top:40px;
+    margin-bottom: 70px;
+
+
+    &__right--img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 30px;
+    }
+
+    &__right--title {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        font-weight: 700;
+        color: #1078AD;
+        padding-bottom: 30px;
+    }
+
+    &__right--para {
+        font-size: 18px;
+        color: #7F7F7F;
+        text-align: center;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: rgba(150, 197, 220, 0.5);
+    border: none;
+    color: #1078AD;
+    padding: 8px 184px;
+    border: 2px solid #1078AD;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background-color: #1078AD;
+}

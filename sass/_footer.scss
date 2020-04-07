@@ -1,0 +1,76 @@
+footer {
+    .about {
+        text-align: center;
+        padding: 20px;
+
+        .details {
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+
+            .menu {
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+
+                &__item {
+                    font-size: large;
+                    font-weight: 700;
+                    margin: 10px 0;
+                    text-decoration: none;
+                    color: $color3;
+
+                    &--btn {
+                        width: 100px;
+                        height: 40px;
+                        margin: 0 auto;
+                        margin-top: 10px;
+                        border: 1px solid $color2;
+                        border-radius: 10px;
+                        background-color: transparent;
+                    }
+
+                    &--active {
+                        color: $color1;
+                    }
+                }
+            }
+
+            .contact {
+                width: 30%;
+                color: $color1;
+
+                p {
+                    font-size: large;
+                    font-weight: 700;
+                    color: $color5;
+                    margin: 20px 0;
+
+                    span {
+                        color: $color6;
+                    }
+
+                }
+
+
+            }
+
+            .discription {
+                width: 40%;
+                color: $color4;
+                text-align: left;
+                font-size: large;
+                margin: auto;
+
+            }
+
+        }
+
+    }
+
+    .base-bottom {
+        background-color: rgb(16, 120, 173);
+        width: 100%;
+        height: 35px;
+    }
+}
