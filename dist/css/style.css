@@ -107,9 +107,9 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  background-color: rgba(150, 197, 220, 0.5);
+  background-color: #1078AD;
   border: none;
-  color: #1078AD;
+  color: white;
   padding: 8px 184px;
   border: 2px solid #1078AD;
   border-radius: 10px;
@@ -119,11 +119,13 @@ button {
   font-weight: bolder; }
 
 button:hover {
-  color: #FFFFFF;
-  background-color: #1078AD; }
+  color: #1078AD;
+  background-color: rgba(150, 197, 220, 0.5);
+  cursor: pointer; }
 
 .symptomes {
   margin: 0 80px 80px;
+  margin-top: 24px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 20% 45% 45%; }
@@ -318,10 +320,58 @@ footer .base-bottom {
     justify-content: space-evenly; }
     .protection .cards__card {
       width: 30%;
-      margin-top: 85px; }
+      margin-bottom: 85px; }
       .protection .cards__card img {
         height: 100px; }
       .protection .cards__card--title {
         color: #1078AD;
         font-size: 14px;
         font-weight: 700; }
+
+.informations {
+  width: 100%;
+  height: 16rem;
+  margin: 0 auto;
+  background-color: #96C5DC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px; }
+  .informations .text {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin: 0; }
+    .informations .text h2 {
+      color: #1078AD;
+      font-size: 40px;
+      margin-bottom: 30px; }
+    .informations .text p {
+      color: #1A519E;
+      font-size: 28px;
+      font-size: larger;
+      font-weight: 600; }
+  .informations .button {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .informations .button__butt {
+      padding: 0;
+      width: 255px;
+      margin: auto;
+      height: 4rem;
+      border: 2px solid #1078AD;
+      border-radius: 5px;
+      background-color: #1078AD;
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: large; }
+      .informations .button__butt a {
+        text-decoration: none;
+        color: white; }
+        .informations .button__butt a:visited {
+          color: white; }
+        .informations .button__butt a:active {
+          color: #F4CF1B; }

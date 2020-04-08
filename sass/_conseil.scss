@@ -6,8 +6,8 @@
         font-family: 'Cairo';
         color: $color1;
         margin-top: 20px;
-         text-align: center;
-        font-size:24px;
+        text-align: center;
+        font-size: 24px;
     }
 
     .cards {
@@ -19,7 +19,7 @@
 
         &__card {
             width: 30%;
-            margin-top: 85px;
+            margin-bottom: 85px;
 
             img {
                 height: 100px;
@@ -32,5 +32,76 @@
                 ;
             }
         }
+    }
+}
+
+.informations {
+    width: 100%;
+    height: 16rem;
+    margin: 0 auto;
+    background-color: $color3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+
+    .text {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        margin: 0;
+
+        h2 {
+            color: $color1;
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #1A519E;
+            font-size: 28px;
+            font-size: larger;
+            font-weight: 600;
+            
+        }
+
+    }
+
+    .button {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+
+        &__butt {
+            padding: 0;
+            width: 255px;
+            margin: auto;
+            height: 4rem;
+            border: 2px solid $color1;
+            border-radius: 5px;
+            background-color: $color1;
+            color: $color7;
+            font-weight: 700;
+            font-size: large;
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                &:visited {
+                    color: white;
+                }
+
+                &:active {
+                    color: $color2;
+                }
+            }
+        }
+
+
     }
 }
