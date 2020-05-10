@@ -11,6 +11,10 @@
 .navbar {
     background: url(/dist/Assets/png/Mergedbar-19.png);
     height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: $color3;
+
 }
 
 .logo {
@@ -80,6 +84,7 @@ nav ul li a {
 /*nav barre*/
 .traitement {
     background-color: #F4CF1B;
+    padding-top: 55px;
 }
 
 .traitement--title {
