@@ -1,0 +1,37 @@
+.error {
+    &__background {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+        padding-top: 10em;
+
+        ;
+
+    }
+
+    &__title {
+        color: $color1;
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &__button {
+        width: 20%;
+        background-color: $color1;
+        padding: 8px 40px;
+        border-radius: 0px;
+    }
+
+    &__button:hover {
+        border: 2px solid $color3;
+        background-color: $color3;
+    }
+
+    &__button--link {
+        font-size: 24px;
+        color: $color7;
+    }
+}
