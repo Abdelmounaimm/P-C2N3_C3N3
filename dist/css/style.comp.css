@@ -272,16 +272,24 @@ button:hover {
   .base__item {
     margin: 5px auto; }
     .base__item--btn {
-      margin: auto;
-      padding: auto;
-      height: 45px;
-      width: 500px;
-      font-size: 15px;
-      font-weight: 500;
-      border: 2px solid #1078AD;
-      border-radius: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 32%;
       background-color: #1078AD;
-      color: #FFFFFF; }
+      border: none;
+      color: white;
+      padding: 8px 184px;
+      border: 2px solid #1078AD;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bolder; }
+    .base__item button:hover {
+      color: #1078AD;
+      background-color: rgba(150, 197, 220, 0.5);
+      cursor: pointer; }
 
 footer .about {
   text-align: center;
