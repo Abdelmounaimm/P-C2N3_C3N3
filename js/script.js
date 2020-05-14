@@ -19,9 +19,16 @@ const animateBox = document.querySelector('.animation')
 testBtn.addEventListener('click', startTest)
 
 function startTest() {
+     stepper[0]
+        .classList
+        .remove('select')
+    stepper[1]
+        .classList
+        .add('select')
     testBtn.style.display = 'none'
     Préambule.style.display = 'none'
     questionnaire.style.display = 'block'
+    
 
 }
 
